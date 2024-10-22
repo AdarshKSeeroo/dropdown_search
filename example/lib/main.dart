@@ -77,7 +77,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             Text(
                               i,
                               textAlign: TextAlign.center,
-                              style: Theme.of(context).textTheme.subtitle2,
+                              style: Theme.of(context).textTheme.titleSmall,
                             ),
                             MaterialButton(
                               height: 20,

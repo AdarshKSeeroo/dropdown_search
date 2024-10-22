@@ -460,7 +460,7 @@ class DropdownSearchState<T> extends State<DropdownSearch<T>> {
             Text(
               _selectedItemAsString(item),
               textAlign: TextAlign.center,
-              style: Theme.of(context).textTheme.subtitle2,
+              style: Theme.of(context).textTheme.titleSmall,
             ),
             MaterialButton(
               height: 20,
@@ -499,7 +499,7 @@ class DropdownSearchState<T> extends State<DropdownSearch<T>> {
         );
       }
       return Text(_selectedItemAsString(getSelectedItem),
-          style: Theme.of(context).textTheme.subtitle1);
+          style: Theme.of(context).textTheme.titleMedium);
     }
 
     return selectedItemWidget();
